@@ -1,0 +1,45 @@
+.users {
+	width: 800px;
+	height: 500px;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+}
+.firstLi {
+	width: 200px;
+	height: 270px;
+	border: 2px solid black;
+	margin-top: 20px;
+}
+.secondLi {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.third {
+	width: 150px;
+	height: 150px;
+	border: 1px solid black;
+	margin-top: 10px;
+	margin-left: 23px;
+}
+.secondLi p {
+	font-size: 12px;
+	width: 30px;
+	height: 30px;
+	border: 1px solid black;
+	text-align: center;
+	padding-top: 8px;
+}
+h5 {
+	font-size: 12px;
+	width: 120px;
+}
+.third  p{
+    font-size: 8px;
+    margin-top: 70px;
+    text-align: center;
+    
+}
