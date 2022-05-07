@@ -3,7 +3,7 @@ import styles from './Users.module.css'
 
 
 
-const Users=(props) => {
+const Users=() => {
     const [users, setUsers] = useState([])
 
     useEffect(() => {
@@ -12,7 +12,7 @@ const Users=(props) => {
             return result.json();
         })
         .then((data) => setUsers(data));
-    }, [props.isLoggedIn])
+    }, [])
 
     
     return(
